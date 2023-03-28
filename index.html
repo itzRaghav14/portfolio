@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/92707715c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Raghav's Resume</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header id="body-header" class="section h-[80vh] bg-dominant bg-cover bg-no-repeat py-5 relative">
+        <!-- nav bar -->
+        <nav class="text-center">
+            <ul class="flex justify-center gap-7">
+                <li><a href="#" class="font-semibold text-lg text-complementary">Home</a></li>
+                <li><a href="#about" class="font-semibold text-lg text-complementary">About</a></li>
+                <li><a href="#skills" class="font-semibold text-lg text-complementary">Skills</a></li>
+                <li><a href="#education" class="font-semibold text-lg text-complementary">Education</a></li>
+                <li><a href="#experience" class="font-semibold text-lg text-complementary">Experience</a></li>
+                <li><a href="#achievements" class="font-semibold text-lg text-complementary">Achievements</a></li>
+                <li><a href="#contact" class="font-semibold text-lg text-complementary">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- name and social icons list -->
+        <div id="name-social-container" class="absolute top-1/2 -translate-y-1/2 w-full">
+            <h1 class="font-semibold text-accent1 text-5xl text-center mb-5">Raghav Goel</h1>
+            <ul id="social-icons" class="flex justify-center gap-8 text-xl text-complementary">
+                <li><a href="https://www.linkedin.com/in/raghavgoel14"><i class="fa-brands fa-linkedin-in hover:text-accent1"></i></a></li>
+                <li><a href="https://github.com/itzRaghav14"><i class="fa-brands fa-github hover:text-accent1"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram hover:text-accent1"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube hover:text-accent1"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-stack-overflow hover:text-accent1"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- about section -->
+        <section id="about" class="section bg-complementary pb-16">
+            <!-- my image -->
+            <img src="https://media.licdn.com/dms/image/D4D03AQEVYBjbuUXD_Q/profile-displayphoto-shrink_800_800/0/1663920881214?e=1685577600&v=beta&t=WJYpA_rqB2wdQkn8Kd_tQUy2phZ5YFKAQ9PXuexqDzE"
+            alt="profile picture"
+            class="rounded-full bg-cover h-60 w-60 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 absolute border-2 border-white shadow-2xl"
+            >
+            <!-- about me -->
+            <p class="text-dominant text-xl text-justify w-2/5 mx-auto pt-40 align-bottom">
+                I am 
+                <span class="font-semibold text-accent2">Raghav Goel</span> 
+                from Faridabad, Haryana. I am passionate programmer who loves problem solving and is an aspirant software developer. My hobbies are playing chess, table tennis and learning new things. 
+            </p>
+        </section>
+
+        <!-- skills section -->
+        <section id="skills" class="section bg-dominant py-16 space-y-20">
+            <!-- section heading -->
+            <h3 class="text-accent1 text-5xl text-center"> <i class="fa-solid fa-chalkboard-user"></i> Skills </h3>
+            <!-- skills bars container -->
+            <div id="skills-bar-containers" class="w-3/5 m-auto flex flex-wrap justify-evenly gap-y-6 gap-x-8">
+                <div class="skill-bars overflow-hidden p-0 m-0 w-48 border border-complementary bg-complementary relative rounded-3xl">
+                    <div class="skill-bar-percentage absolute h-full p-0 m-0 bg-red-500" data-skill-percentage="80"></div>
+                    <span class="relative truncate text-2xl h-full pl-5 py-1 inline-block z-10 text-white font-semibold">C++</span>
+                </div>
+                <div class="skill-bars overflow-hidden p-0 m-0 w-48 border border-complementary bg-complementary relative rounded-3xl">
+                    <div class="skill-bar-percentage absolute h-full p-0 m-0 bg-red-500" data-skill-percentage="60"></div>
+                    <span class="relative truncate text-2xl h-full pl-5 py-1 inline-block z-10 text-white font-semibold">HTML</span>
+                </div>
+                <div class="skill-bars overflow-hidden p-0 m-0 w-48 border border-complementary bg-complementary relative rounded-3xl">
+                    <div class="skill-bar-percentage absolute h-full p-0 m-0 bg-red-500" data-skill-percentage="60"></div>
+                    <span class="relative truncate text-2xl h-full pl-5 py-1 inline-block z-10 text-white font-semibold">CSS</span>
+                </div>
+                <div class="skill-bars overflow-hidden p-0 m-0 w-48 border border-complementary bg-complementary relative rounded-3xl">
+                    <div class="skill-bar-percentage absolute h-full p-0 m-0 bg-red-500" data-skill-percentage="60"></div>
+                    <span class="relative truncate text-2xl h-full pl-5 py-1 inline-block z-10 text-white font-semibold">Javascript</span>
+                </div>
+                <div class="skill-bars overflow-hidden p-0 m-0 w-48 border border-complementary bg-complementary relative rounded-3xl">
+                    <div class="skill-bar-percentage absolute h-full p-0 m-0 bg-red-500" data-skill-percentage="80"></div>
+                    <span class="relative truncate text-2xl h-full pl-5 py-1 inline-block z-10 text-white font-semibold">DSA</span>
+                </div>
+                <div class="skill-bars overflow-hidden p-0 m-0 w-48 border border-complementary bg-complementary relative rounded-3xl">
+                    <div class="skill-bar-percentage absolute h-full p-0 m-0 bg-red-500" data-skill-percentage="40"></div>
+                    <span class="relative truncate text-2xl h-full pl-5 py-1 inline-block z-10 text-white font-semibold">Web Dev</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- education section -->
+        <section id="education" class="section bg-complementary py-16">
+            <!-- section heading -->
+            <h3 class="section-heading text-accent2 text-5xl text-center mb-20">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Education</span>
+            </h3>
+            
+            <!-- Education timeline -->
+            <div id="education-timeline-container" class="w-3/5 mx-auto space-y-12 relative">
+                
+                <!-- timeline divider -->
+                <div id="timeline-divider" class="absolute left-1/2 -translate-x-1/2 top-[23%] h-[56%] p-0 border border-dominant w-0 border-dashed z-0">
+                    <div id="traveller" class="sticky -translate-x-4 z-20 top-1/3 m-0 p-0">
+                        <i class="fa-solid fa-user-graduate text-4xl text-dominant"></i>
+                    </div>
+                </div>
+                
+                <!-- cards -->
+                <div class="timeline-box w-2/5 text-end relative">
+                    <div>
+                        <img src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/5342/2019/10/29/Aggarwal%20Public%20School-Campus.jpg" 
+                        alt="school-picture" class="h-12 float-left">
+                        <h4 class="text-xl font-semibold text-accent2">CBSE (XII)</h4>
+                        <h4 class="text-xl font-semibold text-accent2">Aggarwal Public School</h4>
+                    </div>
+                    <span class="text-dominant font-semibold">2019 - 2021</span>
+                    <p class="text-justify text-gray-700">
+                        I did my schooling from Aggarwal Public School, Ballabgarh.
+                        I got <span class="text-accent2">94.2%</span> in Boards.
+                    </p>
+                    <div class="w-3 h-3 bg-gray-500 rounded-full absolute top-1/2 translate-y-1/2 -right-1/4 translate-x-1/2 opacity-50 z-10"></div>
+                </div>
+
+                <!-- other cards -->
+                <div class="timeline-box w-2/5 text-end relative left-[60%]">
+                    <div>
+                        <img src="https://jcboseust.ac.in/assets/uploads/media/be5cb2dc7f8445c5b3dc7d814be25bc9.png" 
+                        alt="school-picture" class="h-16 float-left">
+                        <h4 class="text-xl font-semibold text-accent2">B. Tech. IT</h4>
+                        <h4 class="text-xl font-semibold text-accent2">JCBUST, YMCA</h4>
+                    </div>
+                    <span class="font-semibold text-dominant">2021 - 2025</span>
+                    <p class="text-justify text-gray-700">
+                        I am persuing my B. Tech. from J. C. Bose University of Science and Technology.
+                        My current CGPA is <span class="text-accent2">8.4</span>.
+                    </p>
+                    <div class="w-3 h-3 bg-gray-500 rounded-full absolute top-1/2 -translate-y-1 -left-1/4 -translate-x-1/2 opacity-50 z-10"></div>
+                </div>
+
+
+            </div>
+            
+        </section>
+
+        <!-- experience section -->
+        <section id="experience" class="section bg-dominant py-16">
+            <h3 class="section-heading text-accent1 text-5xl text-center md-20">
+                <i class="fa-solid fa-suitcase"></i>
+                <span>Experience</span>
+            </h3>
+
+            <!-- Experience timeline -->
+            <div id="education-timeline-container" class="w-3/5 mx-auto space-y-12 relative">
+                
+                <!-- timeline divider -->
+                <div class="absolute left-1/2 -translate-x-1/2 top-[23%] h-[56%] p-0 border border-complementary w-0 border-dashed z-0">
+                    <div id="traveller" class="sticky -translate-x-5 z-20 top-1/3 m-0 p-0">
+                        <i class="fa-solid fa-plane fa-rotate-90 text-4xl text-white"></i>
+                    </div>
+                </div>
+                
+                <!-- cards -->
+                <div class="timeline-box w-2/5 text-end relative">
+                    <div>
+                        <img src="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.png"
+                         alt="school-picture" class="h-12 float-left">
+                        <h4 class="text-xl font-semibold text-accent1">Doubt Solver</h4>
+                        <h4 class="text-xl font-semibold text-accent1">Codechef</h4>
+                    </div>
+                    <span class="text-complementary font-semibold">Feb 2023 - Present</span>
+                    <p class="text-justify text-white">
+                        I am a doubt solver a Codechef.
+                        I have solved over <span class="text-complementary">50</span> doubts.
+                    </p>
+                    <div class="w-3 h-3 bg-gray-500 rounded-full absolute top-1/2 translate-y-1/2 -right-1/4 translate-x-1/2 opacity-50 z-10"></div>
+                </div>
+
+                <!-- other cards -->
+                <div class="timeline-box w-2/5 text-end relative left-[60%]">
+                    <div>
+                        <img src="https://mochaworks.imocha.io/hs-fs/hubfs/iMocha%20black.png?width=937&name=iMocha%20black.png" 
+                        alt="school-picture" class="h-4 float-left">
+                        <h4 class="text-xl font-semibold text-accent1">Problem Setter</h4>
+                        <h4 class="text-xl font-semibold text-accent1">iMocha</h4>
+                    </div>
+                    <span class="font-semibold text-complementary">Feb 2023 - Present</span>
+                    <p class="text-justify text-white">
+                        I am a problem setter at iMocha.
+                        My job is to submit problems for iMocha.
+                    </p>
+                    <div class="w-3 h-3 bg-gray-500 rounded-full absolute top-1/2 -translate-y-1 -left-1/4 -translate-x-1/2 opacity-50 z-10"></div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- achievements section -->
+        <section id="achievements" class="section bg-complementary pt-16 pb-24">
+            <!-- section heading -->
+            <h3 class="section-heading text-accent2 text-5xl text-center mb-20">
+                <i class="fa-solid fa-trophy"></i>
+                <span>Achievements</span>
+            </h3>
+
+            <!-- Achievement timeline -->
+            <div id="education-timeline-container" class="w-3/5 mx-auto space-y-12 relative">
+                
+                <!-- timeline divider -->
+                <div class="absolute left-1/2 -translate-x-1/2 top-[13%] h-[81%] p-0 border border-dominant w-0 border-dashed z-0">
+                    <div class="sticky -translate-x-5 z-20 top-1/3 m-0 p-0">
+                        <i class="fa-solid fa-car-side fa-rotate-90 text-4xl text-dominant"></i>
+                    </div>
+                </div>
+                
+                <!-- cards -->
+                <div class="timeline-box w-2/5 text-end relative">
+                    <div>
+                        <img src="https://styles.redditmedia.com/t5_33o1k/styles/communityIcon_xcagst8qta391.png" 
+                        alt="codeforces-logo" class="h-16 rounded-xl float-left">
+                        <h4 class="text-xl font-semibold text-accent2">Expert</h4>
+                        <h4 class="text-xl font-semibold text-accent2">Codeforces</h4>
+                    </div>
+                    <span class="text-dominant font-semibold">Rating - 1600</span>
+                    <p class="text-justify text-gray-700 mb-2">
+                        I am a passionate competitive programmer. I am currently an <span class="text-accent2">Expert</span>.
+                        My max rating is <span class="text-accent2">1652</span>.
+                    </p>
+                    <div class="w-3 h-3 bg-gray-500 rounded-full absolute top-1/2 translate-y-1/2 -right-1/4 translate-x-1/2 opacity-50 z-10"></div>
+                    <a href="https://codeforces.com/profile/itzzRaghav" class="text-accent2 p-2 border border-accent2 rounded-3xl hover:bg-accent2 hover:text-complementary">Profile</a>
+                </div>
+
+                <!-- other cards -->
+                <div class="timeline-box w-2/5 text-end relative left-[60%]">
+                    <div>
+                        <img src="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.png" 
+                        alt="codechef-logo" class="h-12 float-left">
+                        <h4 class="text-xl font-semibold text-accent2">5 Star Coder</h4>
+                        <h4 class="text-xl font-semibold text-accent2">Codechef</h4>
+                    </div>
+                    <span class="font-semibold text-dominant">Rating - 2000</span>
+                    <p class="text-justify text-gray-700 mb-2">
+                        I am a passionate competitive programmer. I am currently a <span class="text-accent2">5 Star Coder</span>.
+                        My max rating is <span class="text-accent2">2000</span>.
+                    </p>
+                    <div class="w-3 h-3 bg-gray-500 rounded-full absolute top-1/2 -translate-y-1 -left-1/4 -translate-x-1/2 opacity-50 z-10"></div>
+                    <a href="https://codechef.com/users/raghav1453" class="text-accent2 p-2 border border-accent2 rounded-3xl hover:bg-accent2 hover:text-complementary float-left">Profile</a>
+                </div>
+
+                <!-- another card -->
+                <div class="timeline-box w-2/5 text-end relative">
+                    <div>
+                        <img src="https://leetcode.com/_next/static/images/logo-large-748c77d15b8d04e659615ebb5baa7bb6.png" 
+                        alt="codeforces-logo" class="h-8 rounded-xl float-left">
+                        <h4 class="text-xl font-semibold text-accent2">2.5 Stars</h4>
+                        <h4 class="text-xl font-semibold text-accent2">Leetcode</h4>
+                    </div>
+                    <span class="text-dominant font-semibold">Rating - 1779</span>
+                    <p class="text-justify text-gray-700 mb-2">
+                        I am a passionate competitive programmer. I have done over <span class="text-accent2">300</span> problems on Leetcode and over 1000 problems on various sites.
+                        My max rating is <span class="text-accent2">1652</span>.
+                    </p>
+                    <div class="w-3 h-3 bg-gray-500 rounded-full absolute top-1/2 translate-y-1/2 -right-1/4 translate-x-1/2 opacity-50 z-10"></div>
+                    <a href="https://leetcode.com/itzRaghav" class="text-accent2 p-2 border border-accent2 rounded-3xl hover:bg-accent2 hover:text-complementary">Profile</a>
+                </div>
+
+                <!-- another card -->
+                <div class="timeline-box w-2/5 text-end relative left-[60%]">
+                    <div>
+                        <img src="data:image/jpeg;base64,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" 
+                        alt="codechef-logo" class="h-12 float-left rounded-2xl">
+                        <h4 class="text-xl font-semibold text-accent2">Global Rank 811</h4>
+                        <h4 class="text-xl font-semibold text-accent2">Google Kickstart</h4>
+                    </div>
+                    <span class="font-semibold text-dominant">Round H 2022</span>
+                    <p class="text-justify text-gray-700 mb-2">
+                        I got Global Rank <span class="text-accent2">811</span> in Google Kickstart.
+                    </p>
+                    <div class="w-3 h-3 bg-gray-500 rounded-full absolute top-1/2 -translate-y-1 -left-1/4 -translate-x-1/2 opacity-50 z-10"></div>
+                    <a href="https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6#:~:text=%F0%9F%87%AE%F0%9F%87%B3-,itzRaghav,-star" class="text-accent2 p-2 border border-accent2 rounded-3xl hover:bg-accent2 hover:text-complementary float-left">Contest link</a>
+                </div>
+
+            </div>
+
+            
+        </section>
+        
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        
+        <!-- contact section -->
+        <section id="contact" class="section bg-dominant py-16">
+            <!-- section heading -->
+            <h3 class="section-heading text-accent1 text-5xl text-center mb-20">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Contact</span>
+            </h3>
+            
+            <!-- Contact details container -->
+            <div id="contact-details-container" class="w-3/4 m-auto grid grid-cols-2 mb-12">
+                <!-- contact form -->
+                <form id="contact-form" class="col-span-1 pr-6 flex flex-col gap-5 flex-auto">
+                    <input type="text" name="name" id="contact-form-name" placeholder="Your Name" required class="bg-inherit text-xl text-complementary align-middle p-2 border-b-2 border-white focus:outline-none">
+                    <input type="email" name="email" id="contact-form-email" placeholder="Your Email" required class="bg-inherit text-xl text-complementary align-middle p-2 border-b-2 border-white focus:outline-none">
+                    <textarea name="message" id="contact-form-message" cols="30" rows="2" placeholder="Message" required class="bg-inherit text-xl text-complementary align-middle p-2 border-b-2 border-white focus:outline-none"></textarea>
+                    <button type="submit" class="w-auto text-xl text-accent1 mx-auto mt-4 px-3 py-2 align-middle border-2 rounded-2xl hover:text-dominant hover:bg-accent1">SEND MESSAGE</button>
+                </form>
+    
+                <!-- Contact Details -->
+                <div class="col-span-1 pl-6 space-y-6">
+                    <div class="text-accent1">
+                        <h4 class="text-2xl font-semibold mb-2">Get in touch</h4>
+                        <p>You can fill the form to send me a message or you can mail me on the email address given below. </p>
+                    </div>
+                    <div class="text-accent1 space-y-2">
+                        <h4 class="text-2xl font-semibold mb-2">My Address</h4>
+                        <ul class="space-y-2">
+                            <li><i class="fa-solid fa-location-dot"></i> &nbsp; Faridabad, Haryana</li>
+                            <li><i class="fa-regular fa-mobile"></i> &nbsp; 8471092075</li>
+                            <li><i class="fa-regular fa-envelope"></i> &nbsp; raghavgoel1453@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Icons List -->
+            <ul id="contact-social-icons" class="flex justify-center gap-12 text-xl font-semibold text-accent1">
+                <li><a href="https://www.linkedin.com/in/raghavgoel14"><i class="fa-brands fa-linkedin-in p-3 text-center align-middle border-2 border-accent1 rounded-full hover:text-dominant hover:bg-accent1"></i></a></li>
+                <li><a href="https://github.com/itzRaghav14"><i class="fa-brands fa-github p-3 text-center align-middle border-2 border-accent1 rounded-full hover:text-dominant hover:bg-accent1"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram p-3 text-center align-middle border-2 border-accent1 rounded-full hover:text-dominant hover:bg-accent1"></i></a></li>
+                <li><a href="https://www.youtube.com/@raghavgoel7107"><i class="fa-brands fa-youtube p-3 text-center align-middle border-2 border-accent1 rounded-full hover:text-dominant hover:bg-accent1"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-stack-overflow p-3 text-center align-middle border-2 border-accent1 rounded-full hover:text-dominant hover:bg-accent1"></i></a></li>
+            </ul>
+    
+        </section>
+    </footer>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
